@@ -1,12 +1,15 @@
 import React from 'react';
 
 import "assets/scss/style.scss";
+import BrandIcon from 'parts/IconText'
+
 
 function App() {
   return (
     <div className="App">
-      hai dunia
+      <BrandIcon />
     </div>
+    
   );
 }
 
