@@ -55,17 +55,18 @@ header {
     width: 100%;
     position: relative;
 
-    .navbar{
+    .navbar {
         height: 80px;
 
-        .navbar-nav{
-            li.nav-item{
-                a{
-                    &.nav-link{
+        ul.navbar-nav {
+            
+            li.nav-item {
+                a {
+                    &.nav-link {
                         color: $gray-900;
                         padding-left: 1rem;
                         padding-right: 1rem;
-                        &:hover{
+                        &:hover {
                             text-decoration: underline;
                         }
                     }

@@ -1,13 +1,14 @@
 import React from 'react';
-
+import { BrowserRouter as Router, Route} from 'react-router-dom';
 import "assets/scss/style.scss";
-import BrandIcon from 'parts/IconText'
-
+import Landingpage from 'pages/Landingpage';
 
 function App() {
   return (
     <div className="App">
-      <BrandIcon />
+      <Router>
+        <Route path="/" component={Landingpage}></Route>
+      </Router>
     </div>
     
   );
