@@ -32,9 +32,9 @@ export default function Button(props) {
         );
     }
 
-    if (props.type === "link"){
+    if (props.type === "link") {
         if(props.isExternal){
-            return(
+            return (
                 <a
                     href={props.href}
                     className={className.join(" ")}
@@ -45,9 +45,8 @@ export default function Button(props) {
                     {props.children}
                 </a>
             );
-        }
-    }else{
-        return(
+        } else {
+        return (
             <Link
                 to={props.href}
                 className={className.join(" ")}
@@ -56,6 +55,7 @@ export default function Button(props) {
                 {props.children}
             </Link>
         )
+        }
     }    
     
 
