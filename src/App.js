@@ -5,6 +5,7 @@ import Landingpage from 'pages/Landingpage';
 import example from 'pages/example';
 import example1 from 'pages/example1';
 import DetailsPage from 'pages/DetailsPage';
+import Checkout from 'pages/Checkout';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route exact path="/" component={Landingpage}></Route>
         <Route exact path="/properties/:id" component={DetailsPage}></Route>
         <Route exact path="/example" component={example}></Route>
+        <Route exact path="/checkout" component={Checkout}></Route>
         
         <Route exact path="/example1" component={example1}></Route>
       </Router>
